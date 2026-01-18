@@ -110,7 +110,7 @@ h1 {
   transform: translateX(-50%) scale(0.95);
   width: 90%;
   height: 0;
-  background: #e3e3e3;
+  background: #5b4545;
   border-radius: 6px;
   opacity: 0;
   transition:
@@ -124,4 +124,19 @@ h1 {
   height: 55%;
   opacity: 1;
   transform: translateX(-50%) scale(1);
+}
+
+img {
+  display: inline-block;
+  width: 20vh;
+  height: 30vh;
+  background: url();
+  background-repeat: none;
+  
+}
+
+.container.page-2 p {
+  display: inline-block;
+  margin-top: 0;
+
 }

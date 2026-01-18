@@ -40,7 +40,6 @@ function Menu() {
     catch (error) {
       console.error("Error fetching API:", error);
     }
-
   }
 
 
@@ -51,11 +50,10 @@ function Menu() {
       <div><h1>Movie <span className="imdb">IMDB</span></h1></div>
       <div className='input-box input-box-2'>
         <input ref={inputRef} type="text" placeholder="Search for movies, series..." />
-        <button className='search-button search-button-2' onClick={page2}>Search <Search /></button>
+        <button className='search-button search-button-2' onClick={page2}><Search /></button>
       </div>
 
-      <InfoBox />
-      
+      <InfoBox data={movie}/>
       
     </div>
     )
